@@ -13,6 +13,7 @@
 		DDBB44A322332CD200551EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBB44A222332CD200551EEC /* Assets.xcassets */; };
 		DDBB44A622332CD200551EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBB44A422332CD200551EEC /* LaunchScreen.storyboard */; };
 		DDBB44B122332CD300551EEC /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB44B022332CD300551EEC /* ColorsUITests.swift */; };
+		DDBB44BC2233327E00551EEC /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB44BB2233327E00551EEC /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DDBB44AC22332CD300551EEC /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBB44B022332CD300551EEC /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		DDBB44B222332CD300551EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBB44BB2233327E00551EEC /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				DDBB449822332CD000551EEC /* AppDelegate.swift */,
+				DDBB44BB2233327E00551EEC /* ColorsViewController.swift */,
 				DDBB449C22332CD000551EEC /* Main.storyboard */,
 				DDBB44A222332CD200551EEC /* Assets.xcassets */,
 				DDBB44A422332CD200551EEC /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDBB44A122332CD000551EEC /* Colors.xcdatamodeld in Sources */,
+				DDBB44BC2233327E00551EEC /* ColorsViewController.swift in Sources */,
 				DDBB449922332CD000551EEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
