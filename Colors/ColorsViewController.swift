@@ -24,12 +24,33 @@ class ColorsViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return colors.count
     }
+    func backgroundColor(index: Int) -> UIColor {
+        switch index{
+        case 0:
+            return UIColor.red
+        case 1:
+            return UIColor.orange
+        case 2:
+            return UIColor.yellow
+        case 3:
+            return UIColor.green
+        case 4:
+            return UIColor.blue
+        case 5:
+            return UIColor.purple
+        case 6:
+            return UIColor.brown
+        default:
+            break
+        }
+        return UIColor.white
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "colorCell", for: indexPath)
-        let abbr = colors[indexPath.row]
+        
         cell.textLabel?.text = colors[indexPath.row]
-        cell.backgroundColor = UIColor.init(named: abbr)
+        cell.backgroundColor = backgroundColor(index: indexPath.row)
         return cell
     }
     
